@@ -40,8 +40,7 @@ class PRITester:
         self.server_host_name = ""
         self.lower_port = lower_port
         self.upper_port = upper_port
-        self.destination_number = "7080540001"
-        #self.destination_number = "9005107096"
+        self.destination_number = "XXXXXXXXXX"
 	
         self.ssh = paramiko.SSHClient()
         self.ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
